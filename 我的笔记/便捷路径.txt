@@ -1,0 +1,5 @@
+1.IP域名映射
+C:\Windows\System32\drivers\etc\hosts
+
+2.环境变量配置
+控制面板\所有控制面板项\系统

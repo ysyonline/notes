@@ -1,0 +1,8 @@
+【win 10】
+打开运行窗口：win + R
+打开此电脑：win + E
+
+【webStrom】
+重名命：Shift + Alt + R
+快速选择某一行：Shift + Alt + 向上箭头
+格式化：Ctrl + Alt + L
