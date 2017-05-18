@@ -1,0 +1,11 @@
+1.E:\工作空间\application-center\src\config.js
+	修改 hostname 为103.231.69.107
+	export const API_ROOT = protocol + "//" + "103.231.69.107" + ":" + port + '/webapi/v1';
+
+2.E:\工作空间\application-center\index.html  
+	修改<base href="/xxx"> 为 <base href="/">
+
+3.在pack.json进行npm install 下载依赖包
+  npm run dev 开启开发者模式
+  
+4.路由配置: routers.js  

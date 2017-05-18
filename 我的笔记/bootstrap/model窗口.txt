@@ -1,0 +1,8 @@
+1.模态窗口效果
+	你这样试试，这是官方文档的写法 $('#myModal').modal('show') 
+	//显示$('#myModal').modal('hide')
+	//重复点击的隐藏显示有一个很更方便的写法$('#myModal').modal('toggle')；
+
+    http://www.runoob.com/bootstrap/bootstrap-modal-plugin.html
+	
+2.

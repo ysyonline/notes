@@ -1,0 +1,27 @@
+================================1.orderBy================================
+用于返回原数组排序后的结果
+	<ul>
+	  <li v-repeat="user in users | orderBy field reverse"></li>
+	</ul>
+	new Vue({
+	  /* ... */
+	  data: {
+		field: 'name',
+		reverse: false
+	  }
+	})
+
+"-1"用于降序排序。"1"用于升序排序
+	<li v-repeat="user in users | orderBy field -1"></li>
+================================2.filterBy================================
+用于过滤一些特殊的字段
+	message: [
+				{"name": "xiao", "age": 3},	
+				{"name": "li", "age": 12},
+				{"name": "ab", "age": 45},
+				{"name": "biao", "age": 34},
+				{"name": "li", "age": 15},
+			]
+	<span>{{message | filterBy 'li' 'name' | json}}</span>
+	过滤出name字段为"li"的对象。
+	结果[ { "name": "li", "age": 12 }, { "name": "li", "age": 15 } ]

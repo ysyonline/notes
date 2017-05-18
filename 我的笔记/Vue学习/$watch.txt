@@ -1,0 +1,12 @@
+watch的两种写法
+demo06.$watch('message', function (newValue, oldValue) {
+		console.log('message now is:', this.message);
+});
+
+{
+	data:{},
+	watch:{
+		"message": function(newValue){
+		}
+	}
+}

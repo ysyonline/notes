@@ -1,0 +1,7 @@
+1. Bootstrap Star Rating是一个简单而强大的jQuery插件实现星级分数评级。
+   支持像分数星填充和RTL输入先进的功能。在利用纯CSS-3造型使控制重点开发。
+   该插件使用引导标记和造型默认情况下，但它可以覆盖与其他任何CSS的标记。
+   
+   http://www.jb51.net/article/64143.htm
+   
+2.
