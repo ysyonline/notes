@@ -1,0 +1,10 @@
+1.使用挂载点的方式
+ <template id="parent-component">
+            <child-component1></child-component1>
+            <child-component2></child-component2>
+            <button v-on:click="showChildComponentData">显示子组件的数据</button>
+ </template>
+ js:
+  Vue.component('parent-component', {
+       template: '#parent-component', //挂到某个dom
+	   ...});
