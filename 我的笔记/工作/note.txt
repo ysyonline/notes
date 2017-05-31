@@ -1,3 +1,4 @@
+【app-center】
 1.E:\工作空间\application-center\src\config.js
 	修改 hostname 为103.231.69.107
 	export const API_ROOT = protocol + "//" + "103.231.69.107" + ":" + port + '/webapi/v1';
@@ -9,3 +10,18 @@
   npm run dev 开启开发者模式
   
 4.路由配置: routers.js  
+
+【data-ide】
+1.修改config.js，添加
+export const API_ROOT = "http://localhost:9000/manager/v1";
+export const API_TRACE = "http://localhost:9000/provenance/v1";
+export const DOMAIN_ROOT = "http://localhost:9000";
+export const API_SSE = "http://103.231.69.107:8082/provenance/v1";
+
+2.修改index.html
+修改<base href="/xxx"> 为 <base href="/">
+
+3.npm install
+  npm run dev
+
+4.配置nginx.conf文件,启动nginx代理。
