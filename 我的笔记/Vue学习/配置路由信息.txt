@@ -1,0 +1,34 @@
+1.支持两种配置写法 ES5写法
+const router = new VueRouter({
+  root: '/dataultra/',
+  history: true,
+  hashbang: false,
+  saveScrollPosition: true,
+  suppressTransitionError: true,
+  linkActiveClass: 'active'
+});
+const routes = {...};
+router.map(routes);
+
+const app = new Vue({
+  router
+}).$mount('#app')
+// 创建挂载根实例
+
+2.第二种**** ES6写法
+export default router;
+
+import Router from ../router.
+
+Router.start( Index ,"#app");
+参考 http://www.jianshu.com/p/cb918fe14dc6
+
+
+3.使用a标签进行编程式导航遇到的坑！！！！！！！
+<a href="#">mySchool</a>
+this.$router.push({name: "MySchool"});不跳。。。
+改为<a href="javascript:;" @click="next">/MySchool</a>
+
+
+
+
